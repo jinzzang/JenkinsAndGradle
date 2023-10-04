@@ -7,6 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		System.out.println('큰일이다');
 		return application.sources(JenkinsAndGradleApplication.class);
 	}
 
